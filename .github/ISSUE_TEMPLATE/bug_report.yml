@@ -1,0 +1,42 @@
+name: Bug report
+description: Something doesn't work or shows wrong departures
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you got instead.
+    validations:
+      required: true
+  - type: input
+    id: stop
+    attributes:
+      label: Stop and platform
+      description: Name or id, e.g. `Hodžovo nám. (83), platform A`.
+  - type: input
+    id: ha_version
+    attributes:
+      label: Home Assistant version
+      placeholder: "2026.9.1"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Integration version
+      description: HACS → Bratislava MHD, or `version` in `manifest.json`.
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Settings → System → Logs, entries mentioning `bratislava_mhd`.
+      render: text
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: For card problems, a screenshot and the card YAML help a lot.

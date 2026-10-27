@@ -1,0 +1,12 @@
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: bratislava-mhd-ha
+    restart: unless-stopped
+    ports:
+      - "8124:8123"
+    environment:
+      - TZ=Europe/Bratislava
+    volumes:
+      - ./.ha-config:/config
+      - ./custom_components/bratislava_mhd:/config/custom_components/bratislava_mhd

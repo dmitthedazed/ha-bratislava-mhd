@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/tests.yml"><img src="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
-  <a href="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/validate.yml"><img src="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/validate.yml/badge.svg" alt="Validate"></a>
+  <a href="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/tests.yml"><img src="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/tests.yml/badge.svg?branch=main" alt="Tests"></a>
+  <a href="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/validate.yml"><img src="https://github.com/dmitthedazed/ha-bratislava-mhd/actions/workflows/validate.yml/badge.svg?branch=main" alt="Validate"></a>
 </p>
 
 <p align="center"><a href="README.md">English</a> · <b>Slovenčina</b></p>

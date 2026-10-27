@@ -1,2 +1,3 @@
 pytest-homeassistant-custom-component
 python-socketio[asyncio_client]>=5.10
+ruff
