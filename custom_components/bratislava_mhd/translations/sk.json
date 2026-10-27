@@ -1,0 +1,132 @@
+{
+  "config": {
+    "step": {
+      "method": {
+        "title": "Hľadanie zastávok",
+        "description": "Ako hľadať zastávky? Vybrané zastávky zostanú, spôsoby sa dajú kombinovať.",
+        "menu_options": {
+          "nearby": "Na mape",
+          "address": "Podľa adresy",
+          "search": "Podľa názvu zastávky"
+        }
+      },
+      "nearby": {
+        "title": "Na mape",
+        "description": "Vyber bod a polomer, ponúknu sa zastávky vnútri kruhu.",
+        "data": {
+          "location": "Miesto",
+          "max_stops": "Koľko zastávok ponúknuť"
+        }
+      },
+      "address": {
+        "title": "Podľa adresy",
+        "description": "Napríklad „Obchodná 10“ alebo „Ružinov, Bajkalská“. Hľadá sa na Slovensku cez OpenStreetMap.",
+        "data": {
+          "address": "Adresa",
+          "radius": "Polomer",
+          "max_stops": "Koľko zastávok ponúknuť"
+        }
+      },
+      "search": {
+        "title": "Názov zastávky",
+        "description": "Stačí kus názvu, diakritika je dobrovoľná. Viac naraz oddeľ čiarkou: „hodzovo, postova“.",
+        "data": {
+          "query": "Názov"
+        }
+      },
+      "stops": {
+        "title": "Zastávky",
+        "description": "Označ zastávky, ktoré chceš sledovať. Už vybrané sú hore.",
+        "data": {
+          "stops": "Zastávky",
+          "add_more": "Nájsť ďalšie zastávky"
+        }
+      },
+      "platforms": {
+        "title": "Nástupištia",
+        "description": "Z každého nástupišťa bude senzor. Odškrtni smery, ktoré nepotrebuješ.",
+        "data": {
+          "platforms": "Nástupištia"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Zoznam zastávok sa nepodarilo načítať.",
+      "no_stops": "Nenašli sa žiadne zastávky.",
+      "address_not_found": "Adresa sa nenašla.",
+      "geocode_failed": "Hľadanie adresy teraz nefunguje, skús neskôr.",
+      "select_stop": "Vyber aspoň jednu zastávku.",
+      "select_platform": "Vyber aspoň jedno nástupište."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bratislava MHD",
+        "data": {
+          "max_departures": "Odchodov na nástupište",
+          "change_stops": "Zmeniť zastávky"
+        }
+      },
+      "method": {
+        "title": "Hľadanie zastávok",
+        "description": "Ako hľadať zastávky? Vybrané zastávky zostanú, spôsoby sa dajú kombinovať.",
+        "menu_options": {
+          "nearby": "Na mape",
+          "address": "Podľa adresy",
+          "search": "Podľa názvu zastávky"
+        }
+      },
+      "nearby": {
+        "title": "Na mape",
+        "description": "Vyber bod a polomer, ponúknu sa zastávky vnútri kruhu.",
+        "data": {
+          "location": "Miesto",
+          "max_stops": "Koľko zastávok ponúknuť"
+        }
+      },
+      "address": {
+        "title": "Podľa adresy",
+        "description": "Napríklad „Obchodná 10“ alebo „Ružinov, Bajkalská“. Hľadá sa na Slovensku cez OpenStreetMap.",
+        "data": {
+          "address": "Adresa",
+          "radius": "Polomer",
+          "max_stops": "Koľko zastávok ponúknuť"
+        }
+      },
+      "search": {
+        "title": "Názov zastávky",
+        "description": "Stačí kus názvu, diakritika je dobrovoľná. Viac naraz oddeľ čiarkou: „hodzovo, postova“.",
+        "data": {
+          "query": "Názov"
+        }
+      },
+      "stops": {
+        "title": "Zastávky",
+        "description": "Označ zastávky, ktoré chceš sledovať. Už vybrané sú hore.",
+        "data": {
+          "stops": "Zastávky",
+          "add_more": "Nájsť ďalšie zastávky"
+        }
+      },
+      "platforms": {
+        "title": "Nástupištia",
+        "description": "Z každého nástupišťa bude senzor. Odškrtni smery, ktoré nepotrebuješ.",
+        "data": {
+          "platforms": "Nástupištia"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Zoznam zastávok sa nepodarilo načítať.",
+      "no_stops": "Nenašli sa žiadne zastávky.",
+      "address_not_found": "Adresa sa nenašla.",
+      "geocode_failed": "Hľadanie adresy teraz nefunguje, skús neskôr.",
+      "select_stop": "Vyber aspoň jednu zastávku.",
+      "select_platform": "Vyber aspoň jedno nástupište."
+    },
+    "abort": {
+      "cannot_connect": "Zoznam zastávok sa nepodarilo načítať."
+    }
+  }
+}

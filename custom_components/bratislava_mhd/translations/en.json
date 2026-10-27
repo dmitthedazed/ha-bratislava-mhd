@@ -1,0 +1,132 @@
+{
+  "config": {
+    "step": {
+      "method": {
+        "title": "Find stops",
+        "description": "Pick how to find stops. Picked stops are kept, so you can combine methods.",
+        "menu_options": {
+          "nearby": "Near a point on the map",
+          "address": "Near an address",
+          "search": "By stop name"
+        }
+      },
+      "nearby": {
+        "title": "Near a point",
+        "description": "Pick the point and radius — stops inside the circle will be offered.",
+        "data": {
+          "location": "Location",
+          "max_stops": "Max stops to offer"
+        }
+      },
+      "address": {
+        "title": "Near an address",
+        "description": "For example “Obchodná 10” or “Ružinov, Bajkalská”. Searched in Slovakia via OpenStreetMap.",
+        "data": {
+          "address": "Address",
+          "radius": "Radius",
+          "max_stops": "Max stops to offer"
+        }
+      },
+      "search": {
+        "title": "Stop name",
+        "description": "Part of the name, diacritics optional. Several names separated by commas: “hodzovo, postova”.",
+        "data": {
+          "query": "Name"
+        }
+      },
+      "stops": {
+        "title": "Stops",
+        "description": "Tick the stops to follow. Already picked stops are at the top.",
+        "data": {
+          "stops": "Stops",
+          "add_more": "Find more stops"
+        }
+      },
+      "platforms": {
+        "title": "Platforms",
+        "description": "Each platform becomes a sensor. Untick the directions you don't need.",
+        "data": {
+          "platforms": "Platforms"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not load the stop list.",
+      "no_stops": "No stops found.",
+      "address_not_found": "Address not found.",
+      "geocode_failed": "Address search is unavailable, try again later.",
+      "select_stop": "Select at least one stop.",
+      "select_platform": "Select at least one platform."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Bratislava MHD",
+        "data": {
+          "max_departures": "Departures per platform",
+          "change_stops": "Change stops"
+        }
+      },
+      "method": {
+        "title": "Find stops",
+        "description": "Pick how to find stops. Picked stops are kept, so you can combine methods.",
+        "menu_options": {
+          "nearby": "Near a point on the map",
+          "address": "Near an address",
+          "search": "By stop name"
+        }
+      },
+      "nearby": {
+        "title": "Near a point",
+        "description": "Pick the point and radius — stops inside the circle will be offered.",
+        "data": {
+          "location": "Location",
+          "max_stops": "Max stops to offer"
+        }
+      },
+      "address": {
+        "title": "Near an address",
+        "description": "For example “Obchodná 10” or “Ružinov, Bajkalská”. Searched in Slovakia via OpenStreetMap.",
+        "data": {
+          "address": "Address",
+          "radius": "Radius",
+          "max_stops": "Max stops to offer"
+        }
+      },
+      "search": {
+        "title": "Stop name",
+        "description": "Part of the name, diacritics optional. Several names separated by commas: “hodzovo, postova”.",
+        "data": {
+          "query": "Name"
+        }
+      },
+      "stops": {
+        "title": "Stops",
+        "description": "Tick the stops to follow. Already picked stops are at the top.",
+        "data": {
+          "stops": "Stops",
+          "add_more": "Find more stops"
+        }
+      },
+      "platforms": {
+        "title": "Platforms",
+        "description": "Each platform becomes a sensor. Untick the directions you don't need.",
+        "data": {
+          "platforms": "Platforms"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not load the stop list.",
+      "no_stops": "No stops found.",
+      "address_not_found": "Address not found.",
+      "geocode_failed": "Address search is unavailable, try again later.",
+      "select_stop": "Select at least one stop.",
+      "select_platform": "Select at least one platform."
+    },
+    "abort": {
+      "cannot_connect": "Could not load the stop list."
+    }
+  }
+}
